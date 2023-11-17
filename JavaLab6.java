@@ -59,17 +59,17 @@ public class JavaLab6 {
 	        array[i] = min;    // меняем местами наименьший с array[i]
 	    }
 		//пункт 2
-		//System.out.printf("Массив №"+Thread.currentThread().getName()+": "+Arrays.toString(array)+'\n');
+		System.out.printf("Массив №"+Thread.currentThread().getName()+": "+Arrays.toString(array)+'\n');
 	    
 		//пункт3 без синхронизации
-		/*System.out.printf("Массив №"+Thread.currentThread().getName()+'\n');
+		System.out.printf("Массив №"+Thread.currentThread().getName()+'\n');
 		for (int j=0; j<(array.length/100); j++) {
 			System.out.print("*****");
 			for (int i=0; i<100; i++) {
 				System.out.print(array[i+j*100]+" ");
 			}
 			System.out.println("*****");
-		}*/
+		}
 		
 		
 		//синхронизацией
